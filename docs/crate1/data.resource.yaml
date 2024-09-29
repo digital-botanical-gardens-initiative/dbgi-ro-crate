@@ -1,0 +1,17 @@
+name: data
+type: table
+path: docs/crate1/data.csv
+scheme: file
+format: csv
+mediatype: text/csv
+encoding: utf-8
+schema:
+  fields:
+    - name: Date
+      type: date
+    - name: Minimum temperature (°C)
+      type: number
+    - name: Maximum temperature (°C)
+      type: number
+    - name: Rainfall (mm)
+      type: number
