@@ -13,14 +13,44 @@
         },
         {
             "@id": "./",
-            "@type": "Dataset",
-            "hasPart": [],
+            "@type": [
+                "Dataset",
+                "LearningResource"
+            ],
+            "hasPart": [
+                {
+                    "@id": "data.csv"
+                }
+            ],
             "name": "test RO Crate",
-            "description": "A simple RO Crate for testing",
+            "description": "A simple RO Crate for test purpose. Meteorological data from a weather station.",
             "datePublished": "2024-09-29",
             "license": {
                 "@id": "https://spdx.org/licenses/CC0-1.0.html"
             }
+        },
+        {
+            "@id": "data.csv",
+            "@type": "File",
+            "name": "Rainfall Katoomba 2022-02",
+            "description": "Rainfall data for Katoomba in NSW Australia, captured February 2022.",
+            "encodingFormat": "text/csv",
+            "license": {
+                "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/"
+            }
+        },
+        {
+            "@id": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+            "@type": "CreativeWork",
+            "name": "CC BY-NC-SA 4.0",
+            "description": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License"
+        },
+        {
+            "@id": "https://spdx.org/licenses/CC0-1.0.html",
+            "@type": "CreativeWork",
+            "name": "CC0 1.0",
+            "description": "Creative Commons Zero v1.0 Universal",
+            "url": "https://creativecommons.org/publicdomain/zero/1.0/"
         }
     ]
 }
