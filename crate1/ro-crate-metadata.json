@@ -1,0 +1,26 @@
+{
+    "@context": "https://w3id.org/ro/crate/1.1/context",
+    "@graph": [
+        {
+            "@id": "ro-crate-metadata.json",
+            "@type": "CreativeWork",
+            "conformsTo": {
+                "@id": "https://w3id.org/ro/crate/1.1"
+            },
+            "about": {
+                "@id": "./"
+            }
+        },
+        {
+            "@id": "./",
+            "@type": "Dataset",
+            "hasPart": [],
+            "name": "test RO Crate",
+            "description": "A simple RO Crate for testing",
+            "datePublished": "2024-09-29",
+            "license": {
+                "@id": "https://spdx.org/licenses/CC0-1.0.html"
+            }
+        }
+    ]
+}
