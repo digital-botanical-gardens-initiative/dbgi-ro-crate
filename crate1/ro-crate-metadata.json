@@ -25,6 +25,9 @@
             "name": "test RO Crate",
             "description": "A simple RO Crate for test purpose. Meteorological data from a weather station.",
             "datePublished": "2024-09-29",
+            "author": {
+                "@id": "https://orcid.org/0000-0003-3389-2191"
+            },
             "license": {
                 "@id": "https://spdx.org/licenses/CC0-1.0.html"
             }
@@ -51,6 +54,20 @@
             "name": "CC0 1.0",
             "description": "Creative Commons Zero v1.0 Universal",
             "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+        },
+        {
+            "@id": "https://orcid.org/0000-0003-3389-2191",
+            "@type": "Person",
+            "name": "Pierre-Marie Allard",
+            "affiliation": {
+                "@id": "https://ror.org/022fs9h90"
+            }
+        },
+        {
+            "@id": "https://ror.org/022fs9h90",
+            "@type": "Organization",
+            "name": "University of Fribourg",
+            "url": "http://www.unifr.ch/home/welcomeE.php"
         }
     ]
 }
