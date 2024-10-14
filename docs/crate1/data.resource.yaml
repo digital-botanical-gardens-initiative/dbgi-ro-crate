@@ -1,6 +1,6 @@
 name: data
 type: table
-path: docs/crate1/data.csv
+path: ./data.csv
 scheme: file
 format: csv
 mediatype: text/csv
@@ -15,3 +15,8 @@ schema:
       type: number
     - name: Rainfall (mm)
       type: number
+    - name: Station ID
+      type: integer
+  missingValues:
+    - ""
+    - n/a
