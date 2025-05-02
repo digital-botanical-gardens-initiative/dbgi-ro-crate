@@ -30,5 +30,5 @@ This has been announced and discussed at https://github.com/ResearchObject/ro-cr
 - Better examples should be established to showcase the possibilities open by modelling tabular files in the ROCrate metadata.
 - Fork https://pypi.org/project/rocrate/ and try to replicate https://sissource.ethz.ch/sispub/ro-crate/-/blob/main/interoperability/0.1.x/
 
-They have shared 
+They have shared https://github.com/digital-botanical-gardens-initiative/dbgi-ro-crate/blob/d4f3111ae0eb839ecac47a85c136f15e47355761/src/sis/ro-crate-metadata.json and https://github.com/digital-botanical-gardens-initiative/dbgi-ro-crate/blob/d4f3111ae0eb839ecac47a85c136f15e47355761/src/sis/WriteExample.java
 
