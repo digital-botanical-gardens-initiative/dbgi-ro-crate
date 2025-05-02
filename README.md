@@ -18,3 +18,17 @@ frictionless describe docs/crate1/data.csv --yaml > docs
 /crate1/data.resource.yaml
 ```
 
+### SIS
+
+People at SIS  have been working on the modelling of [complex xlsx sheets](https://sissource.ethz.ch/sispub/ro-crate/-/blob/main/interoperability/0.1.x/examples/reference-openbis-export/metadata.xlsx?ref_type=heads) through their RO Crate interoperability specs https://sissource.ethz.ch/sispub/ro-crate/-/blob/main/interoperability/0.1.x/examples/ro-crate-1.1/ro-crate-metadata/ro-crate-metadata.json?ref_type=heads.
+This has been announced and discussed at https://github.com/ResearchObject/ro-crate/issues/399
+
+
+### Ideas and tasks
+
+- Chatting with SIS people today (Juan and Andreas), proposed them to add a hash (sha2546 or md5) of the files to ro-crates, I think this could be done also for ROCrate 1.1, wether or not files are described in the schema
+- Better examples should be established to showcase the possibilities open by modelling tabular files in the ROCrate metadata.
+- Fork https://pypi.org/project/rocrate/ and try to replicate https://sissource.ethz.ch/sispub/ro-crate/-/blob/main/interoperability/0.1.x/
+
+They have shared 
+
