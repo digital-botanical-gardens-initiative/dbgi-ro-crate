@@ -9,8 +9,10 @@ schema:
   fields:
     - name: Date
       type: date
+      # required: true
     - name: Minimum temperature (°C)
       type: number
+      rdfType: http://purl.obolibrary.org/obo/AGRO_00000627
     - name: Maximum temperature (°C)
       type: number
     - name: Rainfall (mm)
