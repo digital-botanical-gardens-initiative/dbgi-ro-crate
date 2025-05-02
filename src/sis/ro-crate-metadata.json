@@ -1,0 +1,87 @@
+"@context" : [ "https://w3id.org/ro/crate/1.1/context", {
+    "schema" : "https://www.w3.org/TR/rdf-schema",
+    "owl" : "https://www.w3.org/TR/owl-ref",
+    "openBIS" : "_:"
+  } ],
+  "@graph" : [ {
+    "name" : "name",
+    "description" : "description",
+    "@id" : "./",
+    "@type" : "Dataset",
+    "license" : {
+      "@id" : "licenseIdentifier"
+    },
+    "datePublished" : "2024-12-04T07:53:11Z",
+    "hasPart" : [ {
+      "@id" : "DataCSV"
+    }, {
+      "@id" : "maximumTemperature"
+    }, {
+      "@id" : "dateField"
+    }, {
+      "@id" : "minimumTemperature"
+    }, {
+      "@id" : "Entry1"
+    }, {
+      "@id" : "stationId"
+    } ]
+  }, {
+    "about" : {
+      "@id" : "./"
+    },
+    "conformsTo" : {
+      "@id" : "https://w3id.org/ro/crate/1.1"
+    },
+    "@id" : "ro-crate-metadata.json",
+    "@type" : "CreativeWork"
+  }, {
+    "dateField" : "2025-01-21T07:12:20Z",
+    "stationId" : 23,
+    "minimumTemperature" : 12.3,
+    "maximumTemperature" : 28.0,
+    "@id" : "Entry1",
+    "@type" : "TextResource"
+  }, {
+    "@type" : "rdfs:Property",
+    "@id" : "stationId",
+    "schema:rangeIncludes" : {
+      "@id" : "xsd:integer"
+    },
+    "schema:domainIncludes" : {
+      "@id" : "DataCSV"
+    }
+  }, {
+    "@id" : "DataCSV",
+    "@type" : "rdfs:Class",
+    "rdfs:subClassOf" : {
+      "@id" : "https://schema.org/Thing"
+    }
+  }, {
+    "@type" : "rdfs:Property",
+    "@id" : "dateField",
+    "schema:rangeIncludes" : {
+      "@id" : "xsd:dateTime"
+    },
+    "schema:domainIncludes" : {
+      "@id" : "DataCSV"
+    }
+  }, {
+    "@type" : "rdfs:Property",
+    "@id" : "minimumTemperature",
+    "schema:rangeIncludes" : {
+      "@id" : "xsd:double"
+    },
+    "schema:domainIncludes" : {
+      "@id" : "DataCSV"
+    }
+  }, {
+    "@type" : "rdfs:Property",
+    "@id" : "maximumTemperature",
+    "schema:rangeIncludes" : {
+      "@id" : "xsd:double"
+    },
+    "schema:domainIncludes" : {
+      "@id" : "DataCSV"
+    }
+  } ]
+}
